@@ -1701,7 +1701,7 @@
 	}
 
 	h4 {
-		font-size: 1.1rem;
+		font-size: 2rem;
 	}
 
 	h5 {
@@ -1814,8 +1814,8 @@
 
 		.box .image.fit {
 			margin: 0;
-            padding: 30px;
-			border-radius: 0;
+            padding: 20px;
+			border-radius: 5px;
 		}
 
 			.box .image.fit img {
@@ -3098,13 +3098,16 @@
 			}
 
 		.wrapper.style3 {
-			background-color: #000;
-			color: #bfbfbf;
-			background-image: url(../../images/bg.jpg);
+			background-color: #FFF;
+			color: black;
+            height: 400px;
+/*
+			background-image: url(../../images/presale.jpg);
 			background-size: cover;
 			background-attachment: fixed;
 			background-position: center;
 			position: relative;
+*/
 		}
 
 			.wrapper.style3 input, .wrapper.style3 select, .wrapper.style3 textarea {
@@ -3362,8 +3365,7 @@
 				-ms-transition-delay: 1.25s;
 				transition-delay: 1.25s;
 				content: '';
-				display: block;
-				background-color: rgba(0, 0, 0, 0.95);
+				display: block;				
 				height: 100%;
 				left: 0;
 				opacity: 0.75;
@@ -3371,6 +3373,7 @@
 				top: 0;
 				width: 100%;
 				z-index: 1;
+                                        
 			}
 
 		@media screen and (max-width: 1280px) {
@@ -3387,9 +3390,7 @@
 				width: 90%;
 			}
 
-			.wrapper.style3 {
-				background-attachment: scroll;
-			}
+		
 
 		}
 
@@ -4236,7 +4237,7 @@
 
 			.banner.full {
 				padding: 0;
-				min-height: 50vh;
+				min-height: 70vh;
 				height: 50vh !important;
 			}
 
@@ -4257,7 +4258,7 @@
 			}
 
 			.banner > article h2 {
-				font-size: 2em;
+				font-size: 2.5em;
 			}
 
 		}
@@ -4314,4 +4315,12 @@
 .img-box {
     font-size: 1rem;
     text-align: center;
+
+}
+
+
+
+.intro-box:hover{
+        -webkit-animation: bounce 1s;
+        animation: bounce 1s;
 }
