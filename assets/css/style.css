@@ -3526,7 +3526,8 @@
 			}
 
 		}
-
+/* 下方四个图标的CSS 
+*/
 	.gallery {
 		width: 100%;
 		margin: 2.5rem 0 2.5rem 0;
@@ -3556,11 +3557,11 @@
 		}
 
 		.gallery > * {
-			width: 50%;
+			width: 80%;
 		}
 
 		.gallery > * {
-			padding: 2rem;
+			padding: 0.5rem;
 			width: calc(50% + 2rem);
 		}
 
@@ -3594,7 +3595,7 @@
 				margin: 0;
 			}
 
-		@media screen and (max-width: 980px) {
+		@media screen and (max-width: 550px) {
 
 			.gallery > * {
 				width: 100%;
@@ -4258,7 +4259,7 @@
 			}
 
 			.banner > article h2 {
-				font-size: 2.5em;
+				font-size: 2em;
 			}
 
 		}
