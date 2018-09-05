@@ -3718,7 +3718,7 @@
 		left: 0;
 		line-height: 3.25em;
 		position: fixed;
-		text-align: right;
+		text-align: left;
 		top: 0;
 		width: 100%;
 		z-index: 10001;
@@ -3727,7 +3727,7 @@
 		#header > .logo {
 			display: inline-block;
 			height: inherit;
-			left: 1.25em;
+			right: 1.25em;
 			line-height: inherit;
 			margin: 0;
 			padding: 0;
@@ -3793,7 +3793,7 @@
 			}
 
 			#header > a:last-child {
-				padding-right: 1.25em;
+				padding-left: 1.25em;
 			}
 
 			@media screen and (max-width: 736px) {
@@ -3889,7 +3889,7 @@
 		overflow-y: auto;
 		padding: 3rem 2rem;
 		position: fixed;
-		right: 0;
+		left: 00;
 		top: 0;
 		visibility: hidden;
 		width: 20rem;
@@ -3982,9 +3982,9 @@
 			}
 
 		#menu.visible {
-			-moz-transform: translateX(0);
-			-webkit-transform: translateX(0);
-			-ms-transform: translateX(0);
+			-moz-transform: translateX(1);
+			-webkit-transform: translateX(1);
+			-ms-transform: translateX(1);
 			transform: translateX(0);
 			box-shadow: 0 0 1.5rem 0 rgba(0, 0, 0, 0.2);
 			visibility: visible;
@@ -4324,4 +4324,10 @@
 .intro-box:hover{
         -webkit-animation: bounce 1s;
         animation: bounce 1s;
+}
+
+.download {
+    font-size: 1.5rem;
+    border-radius: 20px;
+    color: aqua;
 }
